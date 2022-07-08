@@ -1,0 +1,300 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    position: static;
+}
+
+body{
+    background-color:#db586a;
+}
+
+/* navigation menu list styling */
+nav ul li{
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Poppins, helvetica, Arial, "sans-serif";
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul{
+    background-color: rgb(54,69,79);
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 15px;
+    border-top: 15px;
+    border-color: silver;
+    text-align: center;
+}
+
+nav{
+    display: block;
+    color:white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+/* microphone logo - upper-left */
+#mic-logo{
+    height: 40px;
+    width: auto;
+    margin-left: 0;
+}
+
+/* ALEXANDRU COSOVAN */
+.main-text{
+    color: white;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 5vw;
+    line-height: 0.9;
+}
+/* maramoo */
+.nickname{
+    color:limegreen;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Want to get to know me? */
+div h3{
+    color:white;
+    padding-left: 80vw;
+    font-weight: bold;
+    font-family: poppins-bold,Poppins,Helvetica, sans-serif;
+    font-size: 1em;
+}
+.roles{
+    position: static;
+    padding-left: 80vw;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: Helvetica,poppins-semibold,poppins,sans-serif;
+}
+.material-icons{
+    color: limegreen;
+    text-indent: 0%;
+}
+/* Follow me button */
+#form{
+    padding-left: 80vw;
+    border-radius: 50%;
+    margin-bottom: 20vw;
+}
+/* Youtube Videos */
+main div li{
+    display: inline;
+    list-style-type: none;
+}
+
+/* Main description article */
+main div article h1, h4, strong, p, pre{
+    width: 50%;
+    position: sticky;
+    display:block;
+    padding-left: 5vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+main div article h1{
+    font-family: Helvetica,poppins-bold,poppins,sans-serif;
+}
+main div article p{
+    
+}
+#about-list{
+    position: static;
+    list-style-type: none;
+    color: rgb(212, 83, 83);
+    font-family: Helvetica, poppins-semibold,poppins,sans-serif;
+}
+
+/* Pictures of me */
+*{
+    box-sizing: border-box;
+}
+  
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    
+}
+  
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+  
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(48, 46, 46, 0.8);
+}
+  
+/* Container for image text */
+.caption-container {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: helvetica,poppins-italic,poppins,sans-serif;
+    background-color: rgb(255, 255, 255, 1);
+    margin: auto;
+    width: 50;
+
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 10.00%;
+}
+  
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+  
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(255, 255, 255);
+}
+  
+/* visited link */
+a:visited {
+    color: rgb(255, 255, 255);
+}
+  
+/* mouse over link */
+a:hover {
+    color: rgb(210, 22, 66);
+}
+  
+/* selected link */
+a:active {
+    color: rgb(0, 255, 13);
+}
+
+/* remove underline from links*/
+div ul {
+    text-decoration: none;
+}
+
+/* check out my videos title */
+.videos-container{
+    color: rgb(0, 0, 0);
+
+}
+#videos-title{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: helvetica,poppins-bold,poppins,sans-serif;
+}
+
+/* center video list */
+#yt-videos{
+    padding-left: 5vw;
+    text-align: center;
+} 
+
+#caption-video{
+    text-align: center;
+    font-size: 30px; 
+    font-family: Poppins, helvetica, Arial; 
+    font-weight: bold;
+}
+/* Let's connect form header */
+#form-header{
+    display: inline;
+    padding-right: 5vw;
+    color: rgb(0, 0, 0); 
+    font-size: 25px; 
+    font-family: Poppins, helvetica, Arial; 
+    font-weight: 700;
+}
+
+/* form block */
+.seva-form{
+    width: 100vw;
+    margin-left: 33vw;
+}
+
+/* footer */
+footer{
+    width:100%;
+    background-color: rgb(54,69,79);
+    height:5vh;
+    margin-top:0px;
+}
+
+footer div{
+    text-align:center;
+    color:white;
+}
+
+footer hr{
+    margin-top:0;
+    height:12px;
+    border:0px;
+    box-shadow:inset 0 12px 12px -12px white
+}
